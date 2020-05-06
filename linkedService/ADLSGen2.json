@@ -4,7 +4,15 @@
 		"annotations": [],
 		"type": "AzureBlobFS",
 		"typeProperties": {
-			"url": "https://wyadls2.dfs.core.windows.net"
+			"url": "https://wyadls2.dfs.core.windows.net",
+			"accountKey": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "KeyStore",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "ADLSGen2Secret"
+			}
 		}
 	},
 	"type": "Microsoft.DataFactory/factories/linkedservices"
