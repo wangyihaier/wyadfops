@@ -5,17 +5,17 @@
 		"factoryName": {
 			"value": "wyadfv2"
 		},
-		"ADLSGen2_accountKey": {
-			"value": ""
-		},
-		"SQLDB_connectionString": {
-			"value": ""
-		},
-		"SQLDW_connectionString": {
-			"value": ""
-		},
 		"ADLSGen2_properties_typeProperties_url": {
 			"value": "https://wyadls2.dfs.core.windows.net"
+		},
+		"KeyStore_properties_typeProperties_baseUrl": {
+			"value": "https://wykv.vault.azure.net/"
+		},
+		"SQLDB_properties_typeProperties_connectionString_secretName": {
+			"value": "SQLDBSecret"
+		},
+		"SQLDW_properties_typeProperties_connectionString_secretName": {
+			"value": "SQLDWSecret"
 		},
 		"containerUri": {
 			"value": ""
