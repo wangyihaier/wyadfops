@@ -1,0 +1,19 @@
+{
+	"name": "AggregateResult",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ADLSGen2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "sink-container"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
